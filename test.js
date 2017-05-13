@@ -45,28 +45,28 @@ describe('square', function () {
 
 describe('trapezoid', function () {
     it('should find the area of a trapezoid', function () {
-        expect(functions.trapezoid(4, 3, 7)).to.equal();
-        expect(functions.trapezoid(8, 10, 20)).to.equal();
+        expect(functions.trapezoid(4, 3, 7)).to.equal(20);
+        expect(functions.trapezoid(8, 10, 20)).to.equal(120);
     })
 });
 
 describe('circle', function () {
     it('should find the area of a circle', function () {
-        expect(functions.circle(2)).to.equal(4);
-        expect(functions.circle(4)).to.equal(16);
+        expect(functions.circle(2)).to.equal(12.56);
+        expect(functions.circle(4)).to.equal(50.24);
     })
 });
 
 describe('ellipse', function () {
-    it('should find teh area of an ellipse', function () {
-        expect(functions.ellipse(2)).to.equal(4);
-        expect(functions.ellipse(4)).to.equal(16);
+    it('should find the area of an ellipse', function () {
+        expect(functions.ellipse(2, 4)).to.equal(25.12);
+        expect(functions.ellipse(10, 12)).to.equal(376.8);
     })
 });
 
 describe('triangle', function () {
     it('should find the area of a triangle', function () {
-        expect(functions.triangle(2)).to.equal(4);
-        expect(functions.triangle(4)).to.equal(16);
+        expect(functions.triangle(2, 7)).to.equal(7);
+        expect(functions.triangle(3, 14)).to.equal(21);
     })
 });

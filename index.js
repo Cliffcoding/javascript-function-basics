@@ -1,29 +1,33 @@
 module.exports = {};
 
+//Write a function that:
+
+//finds the sum of two numbers
+//sum
 module.exports.sum = function (a, b) {
-    return a + b;
+    //write code here
 };
 
-module.exports.difference = function (a, b) {
-    return a - b;
-};
+//finds the difference of two numbers
+//difference
 
-module.exports.product = function (a, b) {
-    return a * b;
-};
+//finds the product of two numbers
+//product
 
-module.exports.quotient = function (a, b) {
-    return a / b;
-};
+//finds the quotient of two numbers
+//quotient
 
-module.exports.rectangle = function (a, b) {
-    return a * b;
-};
+//finds the area of a rectangle
+//rectangle
 
-module.exports.square = function (a) {
-    return a * a;
-};
+//finds the area of a square
+//square
 
-module.exports.trapezoid = function (h, b1, b2) {
-    return h/2 * (b1 + b2);
-};
+//finds the area of a trapezoid
+//trapezoid
+
+//finds the area of an ellipse
+//ellipse
+
+//finds the area of a triangle
+//triangle
